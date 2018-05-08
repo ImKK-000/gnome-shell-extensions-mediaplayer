@@ -56,3 +56,9 @@
     padding-left: 0.5px;
     padding-right: 0.5px;
 }
+
+.aggregate-menu .popup-sub-menu > * > * > :first-child,
+.aggregate-menu .popup-sub-menu > * > * > :last-child > :first-child,
+.aggregate-menu .popup-sub-menu > * > * > :last-child > :first-child > :first-child {
+    margin: 0; padding: 0;
+}
